@@ -3,15 +3,10 @@ package com.djxf.Bean;
 import java.io.Serializable;
 /**
  * 商品实体类
- * @author Administrator
- * 
- *
+ * @author djxf
  */
 public class Product implements Serializable{
-	/**
-	 * num:库存数量
-	 * pPrice：单价
-	 */
+
 	private String pName;
 	private String pId;
 	private boolean isOnsale = true;
@@ -20,7 +15,6 @@ public class Product implements Serializable{
 	private int num;
 	
 	public Product(String pId,String pName, float pPrice, String category, int num) {
-		super();
 		this.pId = pId;
 		this.pName = pName;
 		this.pPrice = pPrice;

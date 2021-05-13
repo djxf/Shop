@@ -55,7 +55,6 @@ public class CartServiceImpl implements CartService{
 
 	@Override
 	public void delectcart(String username, String pid) {
-		
-				
+
 	}
 }

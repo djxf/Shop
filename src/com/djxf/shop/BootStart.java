@@ -6,5 +6,4 @@ public class BootStart {
 		System.out.println("欢迎来到自动售货系统！");
 		MainMenu.main(args);
 	}
-
 }

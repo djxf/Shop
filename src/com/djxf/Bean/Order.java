@@ -1,14 +1,16 @@
 package com.djxf.Bean;
 
+/**
+ * 订单类
+ */
+
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Order implements Serializable{
-	
-	
+
 	public Order(String id, String username, String addr, double amout, Date data) {
-		super();
 		this.id = id;
 		this.username = username;
 		this.addr = addr;
@@ -50,11 +52,11 @@ public class Order implements Serializable{
 	public void setData(Date data) {
 		this.data = data;
 	}
+
 	@Override
 	public String toString() {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		return "Order [id=" + id + ", username=" + username + ", addr=" + addr + ", amout=" + amout + ", data=" + sdf.format(data)
 				+ "]";
 	}
-	
 }

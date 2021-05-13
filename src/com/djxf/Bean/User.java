@@ -3,7 +3,7 @@ package com.djxf.Bean;
 import java.io.Serializable;
 /**
  * 用户实体类
- * @author Administrator
+ * @author djxf
  *
  */
 public class User implements Serializable {
